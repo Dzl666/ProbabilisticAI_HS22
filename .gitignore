@@ -1,6 +1,7 @@
 
 # checker file
 *.byte
+*.bytes
 
 #pytransform
 pytransform
