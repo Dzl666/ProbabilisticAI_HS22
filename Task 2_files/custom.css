@@ -1,0 +1,125 @@
+html, body {
+    height: 100%;
+	min-height: 100%;
+}
+
+.bgbody{
+    background: url('../img/bg.jpg') no-repeat center;
+    background-attachment:fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.bgbody .wrapper{
+    background-color: transparent ! important;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.bodypadding {
+	padding-top: 70px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+
+img {
+    vertical-align: middle;
+}
+
+
+.spacer {
+    margin-top:50px;
+}
+
+.loginbox {
+    /* padding-bottom: 10px; */
+    /* padding-top: 10px; */
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.loginbox h1 {
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.loginbox .row div {
+	vertical-align: middle;
+}
+
+
+.rules{
+    display: flex;
+    align-items: center;
+}
+
+.largeicon {
+    font-size:50pt;
+}
+
+.fill { 
+    min-height: 100%;
+    /* height: 100%; */
+}
+
+.cleanlink {
+    text-decoration: none
+}
+
+.bigicon{
+    font-size:50pt;
+}
+
+.jumbotron {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	margin-bottom: 12px;
+}
+
+.alert {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 12px;
+}
+
+.panel-body {
+	text-align: justify;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.panel-body h2{
+    margin-top:5px;
+    margin-bottom:15px;
+}
+
+
+.nav-tabs {
+	border-radius: 3px 3px 0px 0px;
+	background-color: white;
+}
+
+.panel-default {
+    border-radius: 0px 0px 3px 3px;
+    	margin-bottom: 12px;
+
+}
+
+.alert h3 {
+    margin-top:8px;   
+}
+.alert h2 {
+    margin-top:8px;   
+}
+
+strong {
+	font-weight: 600;
+}
